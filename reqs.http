@@ -1,0 +1,9 @@
+@server = https://juliorivero1996-potential-happiness-jx5vr947vx6cjj4-8080.preview.app.github.dev/api
+###
+GET {{server}}/employees
+
+###
+POST {{server}}/employees
+Content-Type: application/json
+
+{"firstName": "Julio" ,"lastName": "Rivero", "description": "Estudiante"}
